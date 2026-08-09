@@ -19,23 +19,23 @@ Uma pasta oculta chamada **.git** será criada e nela serão feitos o controle d
 Há no repositório controlado pelo Git alguns estados dos arquivos e que precisam ser entendidos perfeitamente para entender sobre os versionamentos.
 
 
-1. **untracked(não marcado)**
+- **untracked(não marcado)**
 
 O arquivo foi adicionado no repositório do Git, mas ainda não está marcado para monitoramento pelo GIT.
 
-2. **tracked**
+- **tracked**
 
 O arquivo foi adicionado no repositório do Git e está marcado para monitoramento pelo GIT.
 
-3. **unmodified**
+- **unmodified**
 
 Quando o arquivo é adicionado para monitoramento pelo Git ele assume o estado de não modificado e passa a ser monitorado pelo Git.
 
-4. **modified**
+- **modified**
 
 Assume esse status no momento que ocorre alguma modificação no arquivo e pode receber uma status de arquivo versionado.
 
-5. **stage**
+- **stage**
 
 Quando o arquivo já pode ser enviado para aguardar o fechamento de uma versão. Quando um commit é feito os arquivos são modificados para o estado unmodified.
 
