@@ -55,19 +55,3 @@ git branch -D nome-do-branch
 ```bash
 git push origin :nome-branch
 ```
-
-## Executando o merge entre branches
-
-Para mesclar branchs diferentes podemos executar o comando abaixo. Será criado um commit extra para juntar os branchs.
-
-```bash
-git merge nome-do-branch
-```
-
-## Executando o rebase entre branches
-
-Para mesclar branchs diferentes podemos executar o comando abaixo.
-
-```bash
-git rebase nome-do-branch
-```
